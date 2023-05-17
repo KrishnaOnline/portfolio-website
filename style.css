@@ -1,0 +1,191 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  background-image: url('./assets/images/wallpaperflare.com_wallpaper-2.jpg');
+  background-size: cover;
+  background-color: #A8D8EA;
+}
+
+.header {
+  background-color: #ADD8E6;
+}
+
+.hero {
+  padding-bottom: 75px;
+  background-image: url('./assets/images/2937058.png');
+  background-size: cover;
+  borderbottom: 2px solid black;
+}
+
+.educ {
+  padding-top: 50px;
+  border-bottom: 1px solid #3282B8;
+}
+
+.skills {
+  bordertop: 2px solid black;
+  border-bottom: 1px solid blue;
+}
+
+.projects {
+  padding-top: 50px;
+  border-bottom: 2px solid black;
+}
+
+.social {
+  background-color: #3282B8;
+}
+
+.projects .card {
+  background-color: #d4e9fb;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+.card img {
+ padding: 7.5px;
+}
+
+.social {
+  border-bottom: 2px solid black;
+}
+
+.hero-txt {
+  padding-top: 150px;
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+.hero-txt h2 {
+  font-family: "Bungee Shade";
+  color: #0C134F;
+}
+
+.hero-txt h1 {
+  font-family: "Bungee Shade";
+  color: #0C134F;
+  font-size: 50px;
+}
+
+.hero-img {
+  padding-top: 40px;
+  padding-right: 75px;
+}
+
+.educhead {
+  color: #0C134F;
+  font-family: "Bungee Shade";
+  padding-top: 30px;
+  padding-left: 19%;
+  padding-bottom: 60px;
+}
+
+.educ li {
+  list-style-image: url('./assets/images/arrow-right-square.svg');
+}
+
+.qualimg {
+  padding-left: 110px;
+  padding-top: 40px;
+}
+
+.quals {
+  padding-right: 100px;
+}
+
+.educ .container {
+  padding-bottom: 30px;
+}
+
+.skills h1 {
+  color: #0C134F;
+  font-family: "Bungee Shade";
+  padding-left: 27%;
+  padding-bottom: 60px;
+}
+
+.skills .container {
+  padding-bottom: 30px;
+}
+
+.projects h1 {
+  color: #0C134F;
+  font-family: "Bungee Shade";
+  padding-left: 40%;
+  padding-bottom: 60px;
+}
+
+.projects .container {
+  padding-bottom: 100px;
+}
+
+.last-container {
+  background-color: #333333;
+  color: white;
+  padding: 30px;
+}
+
+.portfolio-link {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-header {
+  background-color: #ADD8E6;
+}
+
+.contact {
+  font-size: 30px;
+  font-family: 'PT Serif';
+  text-align: center;
+  padding-top: 100px;
+}
+
+@media (max-width: 550px) {
+  .hero-txt {
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    /*font-size: ;*/
+  }
+  .hero p {
+    /*textalign: center;*/
+  }
+  .hero-img {
+    width: 20px;
+    padding-left: 5px;
+    padding-top: 0;
+  }
+  .qualimg {
+    width: auto;
+    height: auto;
+    padding-left: 7%;
+    padding-top: 0%;
+  }
+  .educ h1 {
+    padding-left: 10%;
+  }
+  .projects h1 {
+    padding-left: 25%;
+  }
+  .skills img {
+    height: 100px;
+  }
+}
